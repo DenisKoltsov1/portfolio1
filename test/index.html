@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" type="text/javascript"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js" type="text/javascript"></script> -->
+    <script src="js/mask.js" type="text/javascript"></script>
+    <script src="jquery.maskedinput.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    
+   <p><b>Акция!</b> В честь  16-летия фабрики</p>
+  <p>Скидки  до  30%  до 5 октября</p>
+
+
+<button  class="reclama">
+    <span> Расcтчитайте  стоимомсть</span><br> 
+    за 2 Минуты
+</button>
+
+
+<div class="progressBar"><span>Расcтчитайте стоимомсть вашей кухни в 3-х комплектациях</span> <br><b><span>"Эксклюзивная","Богатая" и "Хорошая"</span></b>
+<br>
+<div class="inputProgressBar" >
+    <div class="scale"> </div>
+    <div class="scaleText">1 из 6</div>
+</div></br>
+</div>
+
+<div class="wraperCircle">
+<div class="wrapper">
+     <div class="progressbar">
+         <div class="galka">
+             <!-- <div>V</div> -->
+             <img src="img/galka.jpg" alt="" srcset="">
+         </div>
+     </div>
+</div>
+
+<div class="circular">
+    <div class="inner">
+</div>
+<div class="outer">
+</div>
+<div class="numb">
+0%</div>
+<div class="circle">
+      <div class="dot">
+        <span></span>
+      </div>
+<div class="bar left">
+        <div class="progress">
+</div>
+</div>
+<div class="bar right">
+        <div class="progress">
+</div>
+</div>
+</div>
+</div>
+<script>
+    const numb = document.querySelector(".numb");
+    let counter = 0;
+    setInterval(()=>{
+      if(counter == 100){
+        clearInterval();
+      }else{
+        counter+=1;
+        numb.textContent = counter + "%";
+      }
+    }, 80);
+  </script>
+</div>
+<form action="send.php" method="post">
+    <input type="text" name="email" placeholder="Укажите e-mail">
+<div  class="telefon">
+    <script type="text/javascript">
+        jQuery(function($){
+        $("#phone").mask("+7(999) 999-9999");;
+        });
+     </script>
+</div> 
+
+
+
+</body>
+</html>
