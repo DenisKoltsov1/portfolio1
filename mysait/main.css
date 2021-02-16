@@ -1,0 +1,158 @@
+body{
+    background:#eaeaea;
+    }
+    
+.container{
+    color:black;
+
+    }
+    .wrapperlogo img{
+
+        padding: 20PX;
+    }
+.row{
+    /* border: 1px solid black; */
+   }
+
+.row > div {
+    /* border: 1px solid black; */
+    min-height: 150px;  
+   
+}
+   
+.logo{
+    display: block;
+    border: 1px solid black;
+    height: 68px;
+    width: 30%;
+    marging: 58px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 34px;
+    margin-bottom: auto;
+    color: black;
+    /* text-transform: uppercase; */
+    font-family: sans-serif;
+    font-size: 62px;
+    text-align: center;
+}
+.wrapperMenu  {
+    background: #f8f8f8;
+    display: flex;
+    color: #000000;
+    white-space: nowrap;
+    /* border: 1px solid #000000; */
+    width: 100%;
+    min-height: 85px;
+    text-align: center;
+    padding: 20px 20;
+    padding: 26px;
+    margin: o%;
+}
+
+
+    }
+.wrapperMenu  div.col-md-12{
+    margin: 0%;
+    background: red;
+    padding: 0%;
+
+
+}
+.logo1
+{
+text-align: center;
+font-size: 25px;
+margin-bottom: 20px;
+
+}
+    .textcontent{
+        /* display: flex; */
+        background: #f9f7fa;
+        width: 100%;
+        height: 100%;
+    }
+    /* .textcontent .logo{
+color: red;
+        display: block;
+            /* height: 68px; */
+            font-size: 30px;
+        } */
+        .textcontent p{
+            display: inline-block;
+        }
+        
+.row:nth-child(3)
+        {
+            min-height: 320px;
+            
+        }
+    }
+    .imageContent
+    {  display: flex;
+        background: #f9f7fa;
+        width: 100%;
+        height: 100%;
+        background-image: ;
+        
+    }
+    .imageContent{
+    background-image: url('tort.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    
+    }
+    /* .logo span
+    {
+display: block;
+    } */
+    .col-md-5{
+        padding:0%;
+    }
+    span{
+font-size: 25px;
+
+    }
+
+.imageFoter_Tomato
+{
+    height: 100%;
+    background-image: url('salat.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.imageFoter_salat
+{
+    height: 100%;
+    background-image: url('tomato.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.imageFoter_pelmeni
+{
+    height: 100%;
+    background-image: url('pelmeni.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+    background-size: cover;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
